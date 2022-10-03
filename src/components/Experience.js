@@ -125,7 +125,7 @@ function Experience() {
                 </span>{" "}
                 <span className="px-5">@Aktus M.U.</span>
               </p>
-              <ul className="list-disc text-md py-5 sm:text-l">
+              <ul className="list-disc text-md py-5 sm:text-2xl">
                 <li>
                   Developed a machine learning model for price prediction using
                   Python, Tensorflow and ScikitLearn

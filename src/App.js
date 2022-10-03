@@ -26,7 +26,7 @@ import {
 
 function App() {
   return (
-    <main className="text-white bg-gray-900 font-sans">
+    <main className="text-black bg-orange-100 font-sans dark:text-white dark:bg-gray-900">
       <Navbar />
       <Home />
       <About />
