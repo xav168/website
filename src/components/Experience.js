@@ -98,7 +98,7 @@ function Experience() {
         </div> */}
         <div className="py-3">
           <div className="p-4">
-            <div className="text-l text-gray-400 sm:text-xl">
+            <div className="text-l text-gray-600 dark:text-gray-400 sm:text-xl">
               Aug 2022 - Dec 2022
             </div>
             <p className="text-xl flex flex-row sm:text-3xl">
@@ -115,7 +115,7 @@ function Experience() {
             </div>
           </div>
           <div className="p-4">
-            <div className="text-l text-gray-400 sm:text-xl">
+            <div className="text-l text-gray-600 dark:text-gray-400 sm:text-xl">
               May 2022 - Aug 2022
             </div>
             <div py-2>

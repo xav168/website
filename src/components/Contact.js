@@ -16,7 +16,7 @@ function Contact() {
           <a
             href={require("../Items/Xavier_Resume_Oct22.pdf")}
             download={"Xavier_Resume.pdf"}
-            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+            className="bg-orange-200 hover:bg-orange-300 dark:bg-gray-300 dark:hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center rounded-full"
           >
             <svg
               class="fill-current w-4 h-4 mr-2"
@@ -30,23 +30,17 @@ function Contact() {
         </div>
         <div className="flex flex-row space-x-3">
           <div>
-            <IconButton href="https://github.com/xav168" color="primary">
+            <IconButton href="https://github.com/xav168">
               <GitHubIcon />
             </IconButton>
           </div>
           <div>
-            <IconButton
-              href="https://www.linkedin.com/in/xav168/"
-              color="primary"
-            >
+            <IconButton href="https://www.linkedin.com/in/xav168/">
               <LinkedInIcon />
             </IconButton>
           </div>
           <div>
-            <IconButton
-              href="https://www.instagram.com/xaaavv/"
-              color="primary"
-            >
+            <IconButton href="https://www.instagram.com/xaaavv/">
               <InstagramIcon />
             </IconButton>
           </div>

@@ -24,7 +24,7 @@ function Projects() {
           >
             <SwiperSlide>
               <div className="sm:flex rounded-lg">
-                <div className="sm:h-72 sm:w-72 p-5 shrink-0">
+                <div className="md:h-96 md:w-96 sm:h-72 sm:w-72 p-5 shrink-0">
                   <img src={bwbot} className="px-3"></img>
                 </div>
                 <div className="p-2">
@@ -40,7 +40,7 @@ function Projects() {
                   <div className="py-10">
                     <a
                       href="https://github.com/xav168/bwbot"
-                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                      className="bg-orange-200 text-gray-900 hover:bg-orange-300 font-bold py-2 px-4 rounded-full dark:bg-gray-300 dark:hover:bg-gray-400"
                     >
                       View Project
                     </a>
@@ -50,7 +50,7 @@ function Projects() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="sm:flex rounded-lg">
-                <div className="sm:h-72 sm:w-72 p-5 shrink-0">
+                <div className="md:h-96 md:w-96 sm:h-72 sm:w-72 p-5 shrink-0">
                   <img src={yiqichi} className="px-3"></img>
                 </div>
                 <div className="p-2">
@@ -64,7 +64,7 @@ function Projects() {
                   <div className="py-10">
                     <a
                       href="https://docs.google.com/document/d/1KNDXbyY2w_YTDxWszvzhPsJTUENZYYrB8ON3EaTpCnA/edit?usp=sharing"
-                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                      className="bg-orange-200 hover:bg-orange-300 text-gray-900 font-bold py-2 px-4 rounded-full dark:bg-gray-300 dark:hover:bg-gray-400"
                     >
                       View Project
                     </a>
