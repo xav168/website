@@ -3,5 +3,13 @@
 @tailwind utilities;
 
 body {
-    background-color: #111827
+    background-color: #111827,
+  }
+  @font-face {
+    font-family: "Recoleta";
+    src: url("./fonts/Recoleta/Recoleta-Black.ttf");
+    font-family: "Garet";
+    src: url("./fonts/Garet/garet.book.ttf");
+    font-family: Vilane;
+    src: url("./fonts/Vilane-Font/Vilane\ Light.ttf");
   }

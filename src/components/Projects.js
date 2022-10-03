@@ -10,7 +10,7 @@ function Projects() {
   return (
     <section id="projects" className="divide-y divide-solid">
       <div className=" flex flex-col items-center justify-center min-h-screen">
-        <h1 className=" text-2xl sm:text-5xl font-mono font-bold">
+        <h1 className=" text-2xl sm:text-5xl font-header font-bold">
           My Projects
         </h1>
         <div className="container p-5 sm:h-2/3 sm:w-2/3">
@@ -24,15 +24,15 @@ function Projects() {
           >
             <SwiperSlide>
               <div className="sm:flex rounded-lg">
-                <div className="sm:h-2/3 sm:w-2/3 p-5 shrink-0">
+                <div className="sm:h-72 sm:w-72 p-5 shrink-0">
                   <img src={bwbot} className="px-3"></img>
                 </div>
                 <div className="p-2">
-                  <h1>BookingBot</h1>
-                  <p className="py-3">
+                  <h1 className="text-3xl font-header">BookingBot</h1>
+                  <p className="py-3 text-l">
                     Your one app for all your gym slot booking needs.
                   </p>
-                  <p className="py-3">
+                  <p className="py-3 text-l">
                     A telegram bot that has can help to automate booking
                     processes. Built with python, selenium, telebot-API, and
                     mysql
@@ -50,13 +50,13 @@ function Projects() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="sm:flex rounded-lg">
-                <div className="sm:h-2/3 sm:w-2/3 p-5 shrink-0">
+                <div className="sm:h-72 sm:w-72 p-5 shrink-0">
                   <img src={yiqichi} className="px-3"></img>
                 </div>
                 <div className="p-2">
-                  <h1>YiQiChi</h1>
-                  <p className="py-3">A do it all app for foodies!</p>
-                  <p className="py-3">
+                  <h1 className="text-3xl font-header">YiQiChi</h1>
+                  <p className="py-3 text-l">A do it all app for foodies!</p>
+                  <p className="py-3 text-l">
                     A cross platform mobile application built using react native
                     and firebase Features the ability to upload images, view
                     other's posts and more!

@@ -22,10 +22,10 @@ function Experience() {
   return (
     <section id="experience" className="p-8">
       <div className="flex flex-col items-center justify-center min-h-screen">
-        <h1 className="sm:text-5xl text-2xl font-mono font-bold">
+        <h1 className="sm:text-5xl text-2xl font-header font-bold">
           My Experience
         </h1>
-        <div className="py-3">
+        {/* <div className="py-3">
           <Timeline>
             <TimelineItem>
               <TimelineOppositeContent>
@@ -95,6 +95,49 @@ function Experience() {
               </TimelineContent>
             </TimelineItem>
           </Timeline>
+        </div> */}
+        <div className="py-3">
+          <div className="p-4">
+            <div className="text-l text-gray-400 sm:text-xl">
+              Aug 2022 - Dec 2022
+            </div>
+            <p className="text-xl flex flex-row sm:text-3xl">
+              <span className="font-header">Teaching Assistant</span>
+              <span className=" px-5">@National University of Singapore</span>
+            </p>
+            <div className="py-5">
+              <p className="text-md sm:text-2xl">
+                CS1101S Programming Methodology I
+              </p>
+              <p className="text-md sm:text-2xl">
+                CS2040 Data Structures and Algorithms
+              </p>
+            </div>
+          </div>
+          <div className="p-4">
+            <div className="text-l text-gray-400 sm:text-xl">
+              May 2022 - Aug 2022
+            </div>
+            <div py-2>
+              <p className="text-xl sm:text-3xl">
+                <span className="font-header">
+                  Software Engineering Intern{" "}
+                </span>{" "}
+                <span className="px-5">@Aktus M.U.</span>
+              </p>
+              <ul className="list-disc text-md py-5 sm:text-l">
+                <li>
+                  Developed a machine learning model for price prediction using
+                  Python, Tensorflow and ScikitLearn
+                </li>
+                <li>
+                  Integrated Machine learning model with javascript web
+                  application using Flask
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div></div>
         </div>
       </div>
 
