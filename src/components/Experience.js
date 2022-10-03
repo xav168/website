@@ -21,7 +21,7 @@ import { TimelineOppositeContent } from "@mui/lab";
 function Experience() {
   return (
     <section id="experience" className="p-8">
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center min-h-screen">
         <h1 className="sm:text-5xl text-2xl font-mono font-bold">
           My Experience
         </h1>

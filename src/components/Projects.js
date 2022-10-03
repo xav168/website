@@ -9,11 +9,11 @@ import yiqichi from "../Images/ProjectImages/5311.png";
 function Projects() {
   return (
     <section id="projects" className="divide-y divide-solid">
-      <div className=" flex flex-col items-center justify-center">
+      <div className=" flex flex-col items-center justify-center min-h-screen">
         <h1 className=" text-2xl sm:text-5xl font-mono font-bold">
           My Projects
         </h1>
-        <div className="container p-10 sm:h-2/3 sm:w-2/3">
+        <div className="container p-5 sm:h-2/3 sm:w-2/3">
           <Swiper
             modules={[Autoplay, EffectCards]}
             slidesPerView={1}
