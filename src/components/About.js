@@ -7,8 +7,8 @@ function About() {
     <section id="about">
       <div className="flex flex-col items-center justify-center sm:p-20">
         <h1 className="text-2xl sm:text-5xl font-header font-bold">About Me</h1>
-        <div className="sm:flex grid justify-items-center grid-cols-1 p-5 py-10">
-          <div className="shrink-0 sm:h-60 sm:w-60 md:h-96 md:w-96 rounded-lg">
+        <div className="sm:flex sm:p-5 sm:py-10">
+          <div className="hidden sm:block sm:scale-100 shrink-0 sm:h-60 sm:w-60 md:h-96 md:w-96 rounded-lg">
             <img src={face} />
           </div>
           <div className="text-med p-8">

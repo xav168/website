@@ -98,28 +98,28 @@ function Experience() {
         </div> */}
         <div className="py-3">
           <div className="p-4">
-            <div className="text-l text-gray-600 dark:text-gray-400 sm:text-xl">
+            <div className="text-base text-gray-600 dark:text-gray-400 sm:text-xl">
               Aug 2022 - Dec 2022
             </div>
-            <p className="text-xl flex flex-row sm:text-3xl">
+            <p className="text-l flex flex-row sm:text-3xl">
               <span className="font-header">Teaching Assistant</span>
               <span className=" px-5">@National University of Singapore</span>
             </p>
             <div className="py-5">
-              <p className="text-md sm:text-2xl">
+              <p className="text-base sm:text-2xl">
                 CS1101S Programming Methodology I
               </p>
-              <p className="text-md sm:text-2xl">
+              <p className="text-base sm:text-2xl">
                 CS2040 Data Structures and Algorithms
               </p>
             </div>
           </div>
           <div className="p-4">
-            <div className="text-l text-gray-600 dark:text-gray-400 sm:text-xl">
+            <div className="text-base text-gray-600 dark:text-gray-400 sm:text-xl">
               May 2022 - Aug 2022
             </div>
             <div py-2>
-              <p className="text-xl sm:text-3xl">
+              <p className="text-l sm:text-3xl">
                 <span className="font-header">
                   Software Engineering Intern{" "}
                 </span>{" "}
