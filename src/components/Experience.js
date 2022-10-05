@@ -17,190 +17,43 @@ import gitIcon from "../Images/TechStackIcon/file_type_git_icon_130581.png";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import { TimelineOppositeContent } from "@mui/lab";
+import { experience } from "../data/experience";
 
 function Experience() {
   return (
     <section id="experience" className="p-8">
       <div className="flex flex-col items-center justify-center min-h-screen">
-        <h1 className="sm:text-5xl text-2xl font-header font-bold">
-          My Experience
-        </h1>
-        {/* <div className="py-3">
-          <Timeline>
-            <TimelineItem>
-              <TimelineOppositeContent>
-                Aug 2022 - Dec 2022{" "}
-              </TimelineOppositeContent>
-              <TimelineSeparator>
-                <TimelineDot />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>
-                <h1 className="sm:text-xl font-bold">
-                  Teaching Assistant at National University of Singapore
-                </h1>
-                <p className="sm:text-l py-2">
-                  CS2040: Data Structures and Algorithms
-                </p>
-                <p className="sm:text-l">CS1101S: Programming Methodology I</p>
-              </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-              <TimelineOppositeContent>
-                May 2022 - Aug 2022
-              </TimelineOppositeContent>
-              <TimelineSeparator>
-                <TimelineDot />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>
-                <h1 className="sm:text-xl font-bold">
-                  {" "}
-                  Software Developer Intern at Aktus M.U.
-                </h1>
-                <p className="sm:text-l py-2">
-                  Developed a machine learning model using TensorFlow and
-                  ScikitLearn.
-                </p>
-              </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-              <TimelineOppositeContent>
-                Aug 2021 - May 2025
-              </TimelineOppositeContent>
-              <TimelineSeparator>
-                <TimelineDot />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>
-                <h1 className="sm:text-xl font-bold">
-                  {" "}
-                  Entered National University of Singapore's Computer Science
-                  programme
-                </h1>
-              </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-              <TimelineOppositeContent>
-                January 2017 - December 2018
-              </TimelineOppositeContent>
-              <TimelineSeparator>
-                <TimelineDot />
-              </TimelineSeparator>
-              <TimelineContent>
-                <h1 className="sm:text-xl font-bold">
-                  {" "}
-                  Entered Victoria Junior College
-                </h1>
-              </TimelineContent>
-            </TimelineItem>
-          </Timeline>
-        </div> */}
-        <div className="py-3">
-          <div className="p-4">
-            <div className="text-base text-gray-600 dark:text-gray-400 sm:text-xl">
-              Aug 2022 - Dec 2022
-            </div>
-            <p className="text-l flex flex-row sm:text-3xl">
-              <span className="font-header">Teaching Assistant</span>
-              <span className=" px-5">@National University of Singapore</span>
-            </p>
-            <div className="py-5">
-              <p className="text-base sm:text-2xl">
-                CS1101S Programming Methodology I
-              </p>
-              <p className="text-base sm:text-2xl">
-                CS2040 Data Structures and Algorithms
-              </p>
-            </div>
-          </div>
-          <div className="p-4">
-            <div className="text-base text-gray-600 dark:text-gray-400 sm:text-xl">
-              May 2022 - Aug 2022
-            </div>
-            <div py-2>
-              <p className="text-l sm:text-3xl">
-                <span className="font-header">
-                  Software Engineering Intern{" "}
-                </span>{" "}
-                <span className="px-5">@Aktus M.U.</span>
-              </p>
-              <ul className="list-disc text-md py-5 sm:text-2xl">
-                <li>
-                  Developed a machine learning model for price prediction using
-                  Python, Tensorflow and ScikitLearn
-                </li>
-                <li>
-                  Integrated Machine learning model with javascript web
-                  application using Flask
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div></div>
+        <div className="sticky top-0 bg-orange-100 flex flex-row items-center justify-center dark:bg-gray-900 w-screen sm:h-32 h-16">
+          <h1 className="sm:text-8xl text-5xl font-header font-bold">
+            My Experience
+          </h1>
         </div>
-      </div>
 
-      <div className="flex-column items-center justify-center p-2">
-        <div>
-          <Swiper
-            modules={[Autoplay]}
-            spaceBetween={10}
-            slidesPerView={3}
-            effect={"slide"}
-            loop={true}
-            autoplay={true}
-            centered={true}
-            breakpoints={{
-              640: {
-                slidesPerView: 5,
-                spaceBetween: 20,
-              },
-            }}
-          >
-            <SwiperSlide>
-              <img
-                src={javaIcon}
-                className="rounded-s h-20 w-20 object-scale-down"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={jsIcon}
-                className="rounded-s h-20 w-20 object-scale-down"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={pythonIcon}
-                className="rounded-s h-20 w-20 object-scale-down"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={flaskIcon}
-                className="rounded-s h-20 w-20 object-scale-down"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={mysqlIcon}
-                className="rounded-s h-20 w-20 object-scale-down"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={reactIcon}
-                className="rounded-s h-20 w-20 object-scale-down"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src={gitIcon}
-                className="rounded-s h-20 w-20 object-scale-down"
-              />
-            </SwiperSlide>
-          </Swiper>
+        <div className="py-3 flex flex-col">
+          {experience.map((item) => {
+            return (
+              <div className="mx-32 py-7 pb-20">
+                <div className="border-2 border-gray-500 max-width-xl dark:border-orange-100">
+                  <div className="sm:flex flex-col border border-r-8 border-b-8 border-gray-800 dark:border-orange-200 p-10">
+                    <div className="text-base text-gray-600 dark:text-gray-400 sm:text-xl">
+                      {item.startDate} - {item.endDate}
+                    </div>
+                    <div py-2>
+                      <p className="text-l sm:text-3xl">
+                        <span className="font-header">{item.role} </span>{" "}
+                        <span className="px-5">@{item.company}</span>
+                      </p>
+                      <ul className="list-disc text-md p-5 sm:text-2xl">
+                        {item.points.map((point) => {
+                          return <li>{point}</li>;
+                        })}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

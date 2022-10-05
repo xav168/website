@@ -3,76 +3,58 @@ import { Autoplay, EffectCards } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cards";
-import bwbot from "../Images/ProjectImages/Booking_Bot.png";
-import yiqichi from "../Images/ProjectImages/5311.png";
+
+import { projects } from "../data/projects";
 
 function Projects() {
   return (
-    <section id="projects" className="divide-y divide-solid">
+    <section id="projects" className="py-10">
       <div className=" flex flex-col items-center justify-center min-h-screen">
-        <h1 className=" text-2xl sm:text-5xl font-header font-bold">
-          My Projects
-        </h1>
-        <div className="container p-5 sm:h-2/3 sm:w-2/3">
-          <Swiper
-            modules={[Autoplay, EffectCards]}
-            slidesPerView={1}
-            effect={"slide"}
-            autoplay={true}
-            loop={true}
-            breakpointsBase={"container"}
-          >
-            <SwiperSlide>
-              <div className="sm:flex rounded-lg">
-                <div className="md:h-96 md:w-96 sm:h-72 sm:w-72 p-5 shrink-0">
-                  <img src={bwbot} className="px-3"></img>
-                </div>
-                <div className="p-2">
-                  <h1 className="text-3xl font-header">BookingBot</h1>
-                  <p className="py-3 text-l">
-                    Your one app for all your gym slot booking needs.
-                  </p>
-                  <p className="py-3 text-l">
-                    A telegram bot that has can help to automate booking
-                    processes. Built with python, selenium, telebot-API, and
-                    mysql
-                  </p>
-                  <div className="py-10">
-                    <a
-                      href="https://github.com/xav168/bwbot"
-                      className="bg-orange-200 text-gray-900 hover:bg-orange-300 font-bold py-2 px-4 rounded-full dark:bg-gray-300 dark:hover:bg-gray-400"
+        <div className="sticky top-0 bg-orange-100 flex flex-row items-center justify-center dark:bg-gray-900 w-screen sm:h-32 h-16 ">
+          <h1 className=" text-5xl sm:text-8xl font-header font-bold ">
+            My Projects
+          </h1>
+        </div>
+
+        <div className="mt-40">
+          {projects.map((project) => {
+            return (
+              <div className="mx-32 sm:py-32 py-20">
+                <div className="border-2 border-gray-500 max-width-xl dark:border-orange-100">
+                  <div className="sm:flex border border-r-8 border-b-8 border-gray-800 dark:border-orange-200">
+                    <div
+                      className={
+                        project.imgsrc == null
+                          ? "hidden"
+                          : "hidden sm:block p-5"
+                      }
                     >
-                      View Project
-                    </a>
+                      <img
+                        src={project.imgsrc}
+                        className="px-3 object-scale-down sm:h-96 sm:w-96"
+                      ></img>
+                    </div>
+                    <div className="p-2 flex flex-col relativce">
+                      <h1 className="text-4xl font-header">{project.name}</h1>
+                      <ul>
+                        {project.desc.map((item) => {
+                          return <li className="text-xl my-7">{item}</li>;
+                        })}
+                      </ul>
+                    </div>
+                    <div className="py-10 mx-10 place-self-end shrink-0">
+                      <a
+                        href={project.projlink}
+                        className=" bg-orange-200 hover:bg-orange-300 text-gray-900 font-bold py-2 px-4 rounded-full dark:bg-gray-300 dark:hover:bg-gray-400 place-self-end"
+                      >
+                        View Project
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sm:flex rounded-lg">
-                <div className="md:h-96 md:w-96 sm:h-72 sm:w-72 p-5 shrink-0">
-                  <img src={yiqichi} className="px-3"></img>
-                </div>
-                <div className="p-2">
-                  <h1 className="text-3xl font-header">YiQiChi</h1>
-                  <p className="py-3 text-l">A do it all app for foodies!</p>
-                  <p className="py-3 text-l">
-                    A cross platform mobile application built using react native
-                    and firebase Features the ability to upload images, view
-                    other's posts and more!
-                  </p>
-                  <div className="py-10">
-                    <a
-                      href="https://docs.google.com/document/d/1KNDXbyY2w_YTDxWszvzhPsJTUENZYYrB8ON3EaTpCnA/edit?usp=sharing"
-                      className="bg-orange-200 hover:bg-orange-300 text-gray-900 font-bold py-2 px-4 rounded-full dark:bg-gray-300 dark:hover:bg-gray-400"
-                    >
-                      View Project
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-          </Swiper>
+            );
+          })}
         </div>
       </div>
     </section>

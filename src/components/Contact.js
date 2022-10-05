@@ -31,17 +31,17 @@ function Contact() {
         <div className="flex flex-row space-x-3">
           <div>
             <IconButton href="https://github.com/xav168">
-              <GitHubIcon />
+              <GitHubIcon className="dark:fill-gray-400" />
             </IconButton>
           </div>
           <div>
             <IconButton href="https://www.linkedin.com/in/xav168/">
-              <LinkedInIcon />
+              <LinkedInIcon className="dark:fill-gray-400" />
             </IconButton>
           </div>
           <div>
             <IconButton href="https://www.instagram.com/xaaavv/">
-              <InstagramIcon />
+              <InstagramIcon className="dark:fill-gray-400" />
             </IconButton>
           </div>
         </div>
