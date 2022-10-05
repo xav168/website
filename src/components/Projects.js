@@ -11,15 +11,15 @@ function Projects() {
     <section id="projects" className="py-10">
       <div className=" flex flex-col items-center justify-center min-h-screen">
         <div className="sticky top-0 bg-orange-100 flex flex-row items-center justify-center dark:bg-gray-900 w-screen sm:h-32 h-16 ">
-          <h1 className=" text-5xl sm:text-8xl font-header font-bold ">
-            My Projects
+          <h1 className=" text-3xl sm:text-8xl font-header font-bold ">
+            Projects.
           </h1>
         </div>
 
-        <div className="mt-40">
+        <div className="sm:mt-40">
           {projects.map((project) => {
             return (
-              <div className="mx-32 sm:py-32 py-20">
+              <div className="mx-5 sm:mx-32 sm:py-32 py-20">
                 <div className="border-2 border-gray-500 max-width-xl dark:border-orange-100">
                   <div className="sm:flex border border-r-8 border-b-8 border-gray-800 dark:border-orange-200">
                     <div
@@ -35,17 +35,21 @@ function Projects() {
                       ></img>
                     </div>
                     <div className="p-2 flex flex-col relativce">
-                      <h1 className="text-4xl font-header">{project.name}</h1>
+                      <h1 className="text-xl sm:text-4xl font-header">
+                        {project.name}
+                      </h1>
                       <ul>
                         {project.desc.map((item) => {
-                          return <li className="text-xl my-7">{item}</li>;
+                          return (
+                            <li className="text-sm sm:text-xl my-7">{item}</li>
+                          );
                         })}
                       </ul>
                     </div>
-                    <div className="py-10 mx-10 place-self-end shrink-0">
+                    <div className="mx-2 py-10 sm:px-10 place-self-end shrink-0">
                       <a
                         href={project.projlink}
-                        className=" bg-orange-200 hover:bg-orange-300 text-gray-900 font-bold py-2 px-4 rounded-full dark:bg-gray-300 dark:hover:bg-gray-400 place-self-end"
+                        className="text-sm bg-orange-200 hover:bg-orange-300 text-gray-900 font-bold py-2 sm:px-4 rounded-full dark:bg-gray-300 dark:hover:bg-gray-400 place-self-end"
                       >
                         View Project
                       </a>
