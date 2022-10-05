@@ -1,8 +1,4 @@
 import React from "react";
-import { Autoplay, EffectCards } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-cards";
 
 import { projects } from "../data/projects";
 

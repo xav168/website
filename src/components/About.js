@@ -1,6 +1,4 @@
 import React from "react";
-import face from "../Images/IMG_4543.PNG";
-import Home from "./Home";
 
 function About() {
   return (

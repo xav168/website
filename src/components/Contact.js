@@ -14,7 +14,7 @@ function Contact() {
         <div>xavier.ong@u.nus.edu</div>
         <div className="py-2">
           <a
-            href={require("../Items/Xavier_Resume_Oct22.pdf")}
+            href={require("../Items/Xavier_Resume.pdf")}
             download={"Xavier_Resume.pdf"}
             className="bg-orange-200 hover:bg-orange-300 dark:bg-gray-300 dark:hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center rounded-full"
           >

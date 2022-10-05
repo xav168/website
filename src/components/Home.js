@@ -21,7 +21,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row items-end justify-end text-xl sm:text-2xl font-header mr-5">
+      <div className="px-8 flex flex-col sm:flex-row items-end justify-end text-xl sm:text-2xl font-header mr-5">
         <div className="sm:px-10 hover:underline">
           <a href="https://github.com/xav168">github.</a>
         </div>
@@ -30,7 +30,7 @@ function Home() {
         </div>
         <div className="sm:px-10 hover:underline">
           <a
-            href={require("../Items/Xavier_Resume_Oct22.pdf")}
+            href={require("../Items/Xavier_Resume.pdf")}
             download={"Xavier_Resume.pdf"}
           >
             resume.
