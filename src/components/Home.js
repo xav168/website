@@ -21,7 +21,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row items-end justify-end -top-20 text-xl sm:text-2xl font-header mr-5">
+      <div className="flex flex-col sm:flex-row items-end justify-end mb-20 text-xl sm:text-2xl font-header mr-5">
         <div className="sm:px-10 hover:underline">
           <a href="https://github.com/xav168">github.</a>
         </div>
