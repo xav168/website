@@ -11,7 +11,7 @@ export const projects = [
     desc: [
       "YiQiChi is a cross-platform mobile application to let foodies share, review and locate restaurants all over Singapore.",
       "Utilised Feature branch workflow to manage workflow",
-      "Backed constructed using Firebase",
+      "Backend constructed using Firebase",
       "Frontend constructed using React Native and CSS",
     ],
     skills: "",
