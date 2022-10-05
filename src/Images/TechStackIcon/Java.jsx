@@ -1,7 +1,7 @@
 export const Java = () => {
   return (
     <svg
-      className="fill-[#e76f00] dark:fill-transparent dark:stroke-white sm:h-20 sm:w-20 h-10 w-10"
+      className="fill-[#e76f00] dark:fill-white dark:stroke-black sm:h-20 sm:w-20 h-10 w-10"
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 346"
     >

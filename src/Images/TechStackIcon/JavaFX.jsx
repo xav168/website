@@ -1,7 +1,7 @@
 export const JavaFX = () => {
   return (
     <svg
-      className="fill-[#53829e] dark:fill-transparent dark:stroke-white sm:h-20 sm:w-20 h-10 w-10"
+      className="fill-[#53829e] dark:fill-white dark:stroke-black sm:h-20 sm:w-20 h-10 w-10"
       viewBox="0 0 500 350"
     >
       <path

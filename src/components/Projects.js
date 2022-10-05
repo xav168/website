@@ -20,8 +20,8 @@ function Projects() {
           {projects.map((project) => {
             return (
               <div className="mx-5 sm:mx-32 sm:pb-32 pb-20 bg-orange-50 dark:bg-gray-800">
-                <div className="border-2 border-gray-500 max-width-xl dark:border-orange-100">
-                  <div className="sm:flex border border-r-8 border-b-8 border-gray-800 dark:border-orange-200">
+                <div className="border-2 border-orange-200 max-width-xl dark:border-orange-100">
+                  <div className="sm:flex border border-r-8 border-b-8 border-orange-300 dark:border-gray-200">
                     <div
                       className={
                         project.imgsrc == null

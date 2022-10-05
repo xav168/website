@@ -1,7 +1,7 @@
 export const Tailwind = () => {
   return (
     <svg
-      className="fill-[#52b3d0] dark:fill-transparent dark:stroke-white sm:h-20 sm:w-20 h-10 w-10"
+      className="fill-[#52b3d0] dark:fill-white dark:stroke-white sm:h-20 sm:w-20 h-10 w-10"
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 154"
       xmlns="http://www.w3.org/2000/svg"

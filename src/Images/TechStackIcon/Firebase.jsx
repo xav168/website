@@ -1,7 +1,7 @@
 export const Firebase = () => {
   return (
     <svg
-      className="fill-[#fcca3f] dark:fill-transparent dark:stroke-white sm:h-20 sm:w-20 h-10 w-10"
+      className="fill-[#fcca3f] dark:fill-white dark:stroke-transparent stroke-2 sm:h-20 sm:w-20 h-10 w-10"
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 351"
     >

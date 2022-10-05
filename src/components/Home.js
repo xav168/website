@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="min-h-screen w-screen">
       <Navbar />
-      <div className="box-border mx-auto p-8 flex justify-items-center justify-center content-center h-[60vh] sm:h-[90vh]">
+      <div className="box-border mx-auto p-8 flex justify-items-center justify-center content-center h-[70vh] sm:h-[90vh]">
         <div className="text-5xl sm:text-9xl font-header bg-radius space-x-4 p-2 place-self-center">
           <div className="">
             <TypeWriter
@@ -21,7 +21,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row items-end justify-end mb-20 text-xl sm:text-2xl font-header mr-5">
+      <div className="flex flex-col sm:flex-row items-end justify-end text-xl sm:text-2xl font-header mr-5">
         <div className="sm:px-10 hover:underline">
           <a href="https://github.com/xav168">github.</a>
         </div>

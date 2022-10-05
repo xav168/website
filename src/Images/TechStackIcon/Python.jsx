@@ -1,7 +1,7 @@
 export const Python = () => {
   return (
     <svg
-      className="fill-[#ffe052] dark:fill-transparent dark:stroke-white sm:h-20 sm:w-20 h-10 w-10"
+      className="fill-[#ffe052] dark:fill-white dark:stroke-black sm:h-20 sm:w-20 h-10 w-10"
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 255"
     >

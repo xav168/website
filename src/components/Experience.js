@@ -33,8 +33,8 @@ function Experience() {
           {experience.map((item) => {
             return (
               <div className="sm:mx-32 py-7 pb-20">
-                <div className="border-2 border-gray-500 max-width-xl dark:border-orange-100">
-                  <div className="sm:flex flex-col border border-r-8 border-b-8 border-gray-800 dark:border-orange-200 p-10">
+                <div className="border-2 border-orange-200 max-width-xl dark:border-orange-100">
+                  <div className="sm:flex flex-col border border-r-8 border-b-8 border-orange-300 dark:border-gray-200 p-10">
                     <div className="text-sm text-gray-600 dark:text-gray-400 sm:text-xl">
                       {item.startDate} - {item.endDate}
                     </div>

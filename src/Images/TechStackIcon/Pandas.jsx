@@ -1,6 +1,6 @@
 export const Pandas = () => (
   <svg
-    className="fill-[#130754] dark:fill-transparent dark:stroke-white sm:h-20 sm:w-20 h-10 w-10"
+    className="fill-[#130754] dark:fill-white dark:stroke-black sm:h-20 sm:w-20 h-10 w-10"
     viewBox="0 0 210.21 280.43"
     xmlns="http://www.w3.org/2000/svg"
   >
