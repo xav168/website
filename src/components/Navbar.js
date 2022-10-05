@@ -4,13 +4,14 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import useDarkSide from "./hooks/useDarkSide";
+import { Link } from "react-scroll";
 
 const navigation = [
-  { name: "About", href: "#about", current: false },
-  { name: "Skills", href: "#skills", current: false },
-  { name: "Projects", href: "#projects", current: false },
-  { name: "Experience", href: "#experience", current: false },
-  { name: "Contact Me", href: "#contact", current: false },
+  { name: "About", href: "about", current: false },
+  { name: "Skills", href: "skills", current: false },
+  { name: "Projects", href: "projects", current: false },
+  { name: "Experience", href: "experience", current: false },
+  { name: "Contact Me", href: "contact", current: false },
 ];
 
 function classNames(...classes) {
@@ -32,7 +33,7 @@ export default function Navbar() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -50,21 +51,31 @@ export default function Navbar() {
                   Xavier Ong
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 scroll-smooth">
                     {navigation.map((item) => (
-                      <a
+                      <div className="dark:hover:bg-gray-700 hover:bg-orange-200 px-3 py-2 rounded-md text-sm font-medium cursor-pointer">
+                        <Link
+                          to={item.href}
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                        >
+                          {item.name}
+                        </Link>
+                      </div>
+                      /* <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
                             : "dark:hover:bg-gray-700 hover:bg-orange-200",
-                          "px-3 py-2 rounded-md text-sm font-medium"
+                          "px-3 py-2 rounded-md text-sm font-medium,"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </a>
+                      </a> */
                     ))}
                   </div>
                 </div>

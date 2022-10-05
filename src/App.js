@@ -6,10 +6,11 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
+import { useLayoutEffect } from "react";
 
 function App() {
   return (
-    <main className="text-black bg-orange-100 font-sans dark:text-white dark:bg-gray-900">
+    <main className="text-black bg-orange-100 font-sans dark:text-white dark:bg-gray-900 scroll-smooth">
       <Home />
       <About />
       <Skills />
