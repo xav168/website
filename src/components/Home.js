@@ -21,7 +21,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="px-8 sm:mb-10 flex flex-col sm:flex-row items-end justify-end text-xl sm:text-2xl font-header mr-5">
+      <div className="text-gray-900 dark:text-orange-100 px-8 sm:mb-10 flex flex-col sm:flex-row items-end justify-end text-xl sm:text-2xl font-header mr-5">
         <div className=" sm:px-10 pb-5">
           <a
             href="https://github.com/xav168"
