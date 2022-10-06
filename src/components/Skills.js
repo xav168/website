@@ -15,7 +15,7 @@ import { TypeScript } from "../Images/TechStackIcon/TypeScript";
 export default function Skills() {
   return (
     <section id="skills">
-      <div className="flex justify-center items-center min-h-screen">
+      <div className="flex justify-center items-center min-h-[110vh]">
         <div className=" w-screeen items-center justify-center place-self-center">
           <div>
             <div className="sticky top-0 bg-orange-100 flex flex-row items-center justify-center dark:bg-gray-900 w-screen sm:h-32 h-16 py-20">
