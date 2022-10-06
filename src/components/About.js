@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
 
           <div className="sm:flex sm:p-5 sm:py-10">
             <div className="text-med p-8">
-              <p className="mt-2 text-l sm:text-3xl">
+              <p className="py-3 mt-2 text-l sm:text-3xl">
                 Hi, I'm Xavier, A Y2 Student studing Computer Science in the
                 National University of Singapore. I enjoy solving programming
                 problems and finding innovative ways to solve existing

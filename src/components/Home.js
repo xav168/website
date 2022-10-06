@@ -22,16 +22,27 @@ function Home() {
         </div>
       </div>
       <div className="px-8 sm:mb-10 flex flex-col sm:flex-row items-end justify-end text-xl sm:text-2xl font-header mr-5">
-        <div className="sm:px-10 hover:underline">
-          <a href="https://github.com/xav168">github.</a>
+        <div className=" sm:px-10">
+          <a
+            href="https://github.com/xav168"
+            className="transition ease-in duration-300 hover:border-b-4 hover:border-black dark:hover:border-white"
+          >
+            github.
+          </a>
         </div>
-        <div className="sm:px-10 hover:underline">
-          <a href="https://www.linkedin.com/in/xav168/">linkedin.</a>
+        <div className=" sm:px-10 ">
+          <a
+            href="https://www.linkedin.com/in/xav168/"
+            className="transition ease-in duration-300 hover:border-b-4 hover:border-black dark:hover:border-white"
+          >
+            linkedin.
+          </a>
         </div>
-        <div className="sm:px-10 hover:underline">
+        <div className=" sm:px-10">
           <a
             href={require("../Items/Xavier_Resume.pdf")}
             download={"Xavier_Resume.pdf"}
+            className="transition ease-in duration-300 hover:border-b-4 hover:border-black dark:hover:border-white"
           >
             resume.
           </a>
