@@ -17,8 +17,8 @@ function About() {
               <p className="py-3 mt-2 text-l sm:text-3xl">
                 Hi, I'm Xavier, A Y2 Student studing Computer Science in the
                 National University of Singapore. I enjoy solving programming
-                problems and finding innovative ways to solve existing
-                solutions.
+                challenges and finding innovative ways to solve existing
+                problems.
               </p>
               <p className="py-3 mt-2 text-l sm:text-3xl">
                 In my free time, I enjoy bouldering as a hobby. I love the
