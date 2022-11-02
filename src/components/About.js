@@ -15,7 +15,7 @@ function About() {
           <div className="sm:flex sm:p-5 sm:py-10">
             <div className="text-med p-8">
               <p className="py-3 mt-2 text-l sm:text-3xl">
-                Hi, I'm Xavier, A Y2 Student studing Computer Science in the
+                Hi, I'm Xavier, A sophomore studying Computer Science in the
                 National University of Singapore. I enjoy solving programming
                 challenges and finding innovative ways to solve existing
                 problems.
