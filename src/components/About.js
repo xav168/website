@@ -14,16 +14,26 @@ function About() {
 
           <div className="sm:flex sm:p-5 sm:py-10">
             <div className="text-med p-8">
-              <p className="py-3 mt-2 text-l sm:text-3xl">
-                Hi, I'm Xavier, A sophomore studying Computer Science in the
-                National University of Singapore. I enjoy solving programming
-                challenges and finding innovative ways to solve existing
-                problems.
+              <p className="py-3 mt-2 text-l sm:text-4xl">
+                Hi, I'm Xavier, I am currently studying Computer Science in the
+                National University of Singapore. I am actively looking for
+                Software Engineering Internship opportunities near the bay area
+                specifically in startups. As a developer, I enjoy working more
+                on the backend, but I am open to learning about different areas
+                and exposing myself to all the different frameworks and
+                technologies out there. I built this website while trying to
+                learn React.JS and Tailwind CSS, and this was the outcome.
               </p>
-              <p className="py-3 mt-2 text-l sm:text-3xl">
-                In my free time, I enjoy bouldering as a hobby. I love the
-                outdoors and the scenic view of nature especially those of
-                mountains and lakes!
+              <p className="py-3 mt-2 text-l sm:text-4xl">
+                In my free time, I enjoy bouldering as a hobby. I am actively
+                competing in local competitions in Singapore, representing my
+                University. I enjoy bouldering because of problem solving nature
+                of it. Each time I fall from a boulder problem, I think about
+                where I went wrong and how I can improve and do better on my
+                next attempt. I find it quite similar to programming in the
+                sense that we are often faced with new challenges in
+                programming, and we have to think about how to approach the
+                problem differently each time.
               </p>
             </div>
           </div>
